@@ -511,7 +511,6 @@ odm/etc/camera/gesture/tt_hand_det_v11.0.model
 odm/etc/camera/gesture/tt_hand_gesture_v11.1.model
 odm/etc/camera/gesture/tt_hand_kp_v6.0.model
 odm/etc/camera/gesture/tt_hand_lr_v3.0.model
-odm/etc/camera/license_release_fdc.lic
 odm/etc/camera/main_inv_mapxy_33x25.bin
 odm/etc/camera/main_mapxy_33x25.bin
 odm/etc/camera/meishe_lut/800t_blues.bin
