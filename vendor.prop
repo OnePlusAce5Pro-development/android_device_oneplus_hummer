@@ -3,3 +3,7 @@ bluetooth.device.default_name=OnePlus Ace 5 Pro
 
 # USB
 vendor.usb.product_string=OnePlus Ace 5 Pro
+
+# Camera
+ro.vendor.oplus.market.enname=OnePlus Ace 5 Pro
+ro.vendor.oplus.market.name=OnePlus Ace 5 Pro
