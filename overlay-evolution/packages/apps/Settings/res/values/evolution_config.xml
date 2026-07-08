@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Uses the legacy UDFPS enrollment UI with side text instead of a footer button. -->
+    <bool name="config_useLegacyUdfpsUi" translatable="false">true</bool>
+</resources>
