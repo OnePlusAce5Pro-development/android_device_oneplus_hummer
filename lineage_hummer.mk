@@ -23,8 +23,8 @@ PRODUCT_MODEL := PKR110
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi-user 16 BP2A.250605.015 1780913310361 release-keys" \
-    BuildFingerprint=OnePlus/PKR110/OP60EBL1:16/BP2A.250605.015/1780913310361:user/release-keys \
+    BuildDesc="qssi-user 16 BP2A.250605.015 1783396348784 release-keys" \
+    BuildFingerprint=OnePlus/PKR110/OP60EBL1:16/BP2A.250605.015/1783396348784:user/release-keys \
     DeviceName=OP60EBL1 \
     DeviceProduct=PKR110 \
     SystemDevice=OP60EBL1 \
