@@ -91,6 +91,8 @@ blob_fixups: blob_fixups_user_type = {
     'odm/lib64/libsharebuffer_impl.so': blob_fixup()
         .replace_needed('libutils.so', 'libutils-stock.so')
         .replace_needed('libui.so', 'libui-stock.so'),
+    'odm/lib64/libHIS.so':blob_fixup()
+        .replace_needed('libui.so', 'libui-stock.so'),
     'vendor/lib64/libui-stock.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V5-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
 }  # fmt: skip
