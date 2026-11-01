@@ -10,10 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from hummer device
 $(call inherit-product, device/oneplus/hummer/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common uwuAOSP stuff.
+$(call inherit-product, vendor/uwu/config/common.mk)
+UWU_DEVICE_TYPE := phone
+UWU_SUPPORTS_TELEPHONY := true
+UWU_MAINTAINER := awa_xaga
 
-PRODUCT_NAME := lineage_hummer
+PRODUCT_NAME := uwu_hummer
 PRODUCT_DEVICE := hummer
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
